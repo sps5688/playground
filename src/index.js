@@ -2,6 +2,9 @@ const express = require('express');
 
 const app = express();
 
+// Example way to prevent commits via husky
+//  var tmp;
+
 app.get('/', (req, res) => {
   res.send('An alligator approaches!');
 });
